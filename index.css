@@ -1,6 +1,72 @@
 body {
   /* Reset*/
   box-sizing: border-box;
+  height: 100vh;
   margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.background {
+  height: 20%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/cosmos_tablette.jpg);
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  background-color: slategray;
+  height: 50px;
+  align-items: center;
+}
+
+li {
+  color: gold;
+  border: 1px solid silver;
+  border-radius: 6px;
+}
+li:hover {
+  background-color: gold;
+  color: black;
+}
+.caroussel {
+  height: 40%;
+  width: auto;
+  /* background-color: beige; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/12\ portraits\ mobile\ .jpg);
+}
+.welcome {
+  height: 30%;
+  background-color:linen;
+  margin-top: -6%;
+}
+
+.scrollUp {
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+h1,p{
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Spectral', serif;
+}
+h1{
+  text-align: center;
+  color: gold;
+}
+p{
   
 }

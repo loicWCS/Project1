@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&family=Spectral:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>Saint seya</title>
-</head>
-<body>
-    
-    <div class="navBar">
-        <ul>
-            <li>Home</li>
-            <li>Docs</li>
-            <li>Gallery</li>
-            <li>About</li>
-        </ul>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="navbar">
+      <ul>
+        <li>Home <a href="index.html"></a></li>
+        <li>Story <a href="history.html"></a></li>
+        <li>Gallery <a href="gallery.html"></a></li>
+        <li>About <a href="about.html"></a></li>
+      </ul>
     </div>
     <div class="caroussel"></div>
+    <div class="welcome">
+      <h1>Bienvenue chevalier</h1>
+      <p>
+        Tu trouveras ici du contenu sur le manga "Les chevaliers du Zodiaque",
+        et plus particulièrement les 12 chevaliers d'or !
+      </p>
+    </div>
     <div class="knightText"></div>
     <div class="knightPictures"></div>
-    <div class="background">
-        <img src="" alt="wallpaper">
-    </div>
-    <div class="scrollUp"></div>
 
-</body>
+    <div class="footer">
+      <button class="scrollUp" onclick="topFunction()" id="topButton">
+        To the moon 🚀
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
