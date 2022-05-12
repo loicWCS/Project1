@@ -38,18 +38,17 @@ li:hover {
   color: black;
 }
 .caroussel {
-  height: 40%;
-  width: auto;
-  /* background-color: beige; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
+  height: 40%;
+  background-size: contain;
   background-position: center;
   background-image: url(/images/12\ portraits\ mobile\ .jpg);
 }
 .welcome {
   height: 30%;
-  background-color:linen;
-  margin-top: -6%;
+  background-color: linen;
+
 }
 
 .scrollUp {
@@ -59,14 +58,17 @@ li:hover {
   left: 0;
   bottom: 0;
 }
-h1,p{
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Spectral', serif;
+h1,
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Spectral", serif;
 }
-h1{
+h1 {
   text-align: center;
   color: gold;
+  margin-bottom: 0;
+  margin-top: 0;
 }
-p{
-  
+p {
+  margin-top: 0;
 }
