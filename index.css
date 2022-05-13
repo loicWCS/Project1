@@ -8,12 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 .background {
-  height: 20%;
+  height: 45%;
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(/images/cosmos_tablette.jpg);
+  background-image: url(/images/cosmos_mobile.jpg);
 }
 
 ul {
@@ -33,17 +33,21 @@ li {
   border: 1px solid silver;
   border-radius: 6px;
 }
-li:hover {
+a{
+  text-decoration: none;
+  color: gold;
+}
+li:hover, a:hover {
   background-color: gold;
   color: black;
 }
 .caroussel {
   background-repeat: no-repeat;
   background-color: black;
-  height: 40%;
+  height: 70%;
   background-size: contain;
   background-position: center;
-  background-image: url(/images/12\ portraits\ mobile\ .jpg);
+  background-image: url(/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg);
 }
 .welcome {
   height: 30%;
