@@ -16,11 +16,11 @@
   <body>
     <div class="background"></div>
     <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="history.html">Story</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
+      <ul class="navbar-ul">
+        <li class="navbar-li"><a href="index.html">Home</a></li>
+        <li class="navbar-li"><a href="history.html">Story</a></li>
+        <li class="navbar-li"><a href="gallery.html">Gallery</a></li>
+        <li class="navbar-li"><a href="about.html">About</a></li>
       </ul>
     </div>
     <div class="caroussel"></div>
@@ -28,7 +28,24 @@
       <div class="story-belier">
         <div class="story-img"></div>
         <h2 class="story-title">Mû, le chevalier d'or du bélier</h2>
-        <p class="story-text"></p>
+        <ul class="story-ul">
+          <li class="story-age">Age : 20 ans</li>
+          <li class="story-taille">Taille : 182cm</li>
+          <li class="story-poids">Poids : 75kg</li>
+          <li class="story-origine">Pays d'origine : Tibet</li>
+          <li class="story-pouvoirs">
+            Pouvoirs :Mur de cristal. Technique défensive qui entoure Mû d’une
+            barrière d’énergie protectrice, elle lui permet également de
+            retourner contre eux les attaques de ses adversaires.
+          </li>
+          <li class="story-text">
+            Fidèle à la déesse Athéna, Mû répare les armures des Chevaliers de
+            Bronze avant de les laisser traverser sa Maison sans opposer la
+            moindre résistance. De nature pacifiste, il est doté d’immenses
+            pouvoirs télékinétiques dont il ne se sert qu’en cas de dernier
+            recours.
+          </li>
+        </ul>
       </div>
       <!-- <div class="story-taureau"></div>
      <div class="story-gemeaux"></div>
@@ -42,5 +59,11 @@
      <div class="story-verseau"></div>
      <div class="story-poisson"></div> -->
     </div>
+    <div class="footer">
+      <button class="scrollUp" onclick="topFunction()" id="topButton">
+        To the moon 🚀
+      </button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
