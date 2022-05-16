@@ -55,8 +55,8 @@ a:hover {
   background-color: linen;
 }
 
-.footer{
-  height: 1%;
+.footer {
+  height: 5%;
 }
 .scrollUp {
   width: 100%;
@@ -81,10 +81,10 @@ h1,
 .story-ul {
   background-color: palegoldenrod;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .story-img {
-  background-image: url(/images/story\ portrait\ belier.jpg);
   height: 250px;
   width: 100%;
   background-size: cover;
