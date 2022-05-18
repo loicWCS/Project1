@@ -33,11 +33,12 @@ li {
   border: 1px solid silver;
   border-radius: 6px;
 }
-a{
+a {
   text-decoration: none;
   color: gold;
 }
-li:hover, a:hover {
+li:hover,
+a:hover {
   background-color: gold;
   color: black;
 }
@@ -52,7 +53,6 @@ li:hover, a:hover {
 .welcome {
   height: 30%;
   background-color: linen;
-
 }
 
 .scrollUp {

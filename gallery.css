@@ -1,78 +1,177 @@
 body {
-    /* Reset*/
-    box-sizing: border-box;
-    height: 100vh;
-    margin: 0px;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  .background {
-    height: 45%;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(/images/cosmos_mobile.jpg);
-  }
+  /* Reset*/
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.background {
+  height: 45%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/cosmos_mobile.jpg);
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  background-color: slategray;
+  height: 50px;
+  align-items: center;
+}
+
+li {
+  color: gold;
+  border: 1px solid silver;
+  border-radius: 6px;
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+li:hover,
+a:hover {
+  background-color: gold;
+  color: black;
+}
+.caroussel {
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 70%;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg);
+}
+.welcome {
+  height: 30%;
+  background-color: linen;
+}
+
+.scrollUp {
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+h1,
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Spectral", serif;
+}
+h1 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+p {
+  margin-top: 0;
+}
+
+.gallery-img {
+  height: 100%;
+  flex-direction: column;
   
-  ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0;
-    background-color: slategray;
-    height: 50px;
-    align-items: center;
-  }
-  
-  li {
-    color: gold;
-    border: 1px solid silver;
-    border-radius: 6px;
-  }
-  a{
-    text-decoration: none;
-    color: gold;
-  }
-  li:hover, a:hover {
-    background-color: gold;
-    color: black;
-  }
-  .caroussel {
-    background-repeat: no-repeat;
-    background-color: black;
-    height: 70%;
-    background-size: contain;
-    background-position: center;
-    background-image: url(/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg);
-  }
-  .welcome {
-    height: 30%;
-    background-color: linen;
-  
-  }
-  
-  .scrollUp {
-    height: 5%;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-  }
-  h1,
-  p {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-family: "Spectral", serif;
-  }
-  h1 {
-    text-align: center;
-    color: gold;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  p {
-    margin-top: 0;
-  }
+}
+
+.gallery {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  border: 1px solid gold;
+}
+
+#belier1 {
+  height: 100%;
+  background-image: url(/images/belier.jpg);
+}
+
+#taureau1 {
+  height: 100%;
+  background-image: url(/images/taureau\ .jpg);
+}
+
+#taureau3 {
+  height: 100%;
+  background-image: url(/images/gallery_taureau.jpg);
+}
+#gemeaux1 {
+  height: 100%;
+  background-image: url(/images/gemeaux\ .jpg);
+}
+
+#gemeaux3 {
+  height: 100%;
+  background-image: url(/images/gallery_gemeaux.jpg);
+}
+#cancer1 {
+  height: 100%;
+  background-image: url(/images/cancer.jpg);
+}
+
+#lion1 {
+  height: 100%;
+  background-image: url(/images/lion.jpg);
+}
+
+#vierge1 {
+  height: 100%;
+  background-image: url(/images/vierge\ .jpg);
+}
+
+#vierge3 {
+  height: 100%;
+  background-image: url(/images/gallery_vierge.jpg);
+}
+#balance1 {
+  height: 100%;
+  background-image: url(/images/gallery_maitre\ balance.jpg);
+}
+
+#scorpion1 {
+  height: 100%;
+  background-image: url(/images/scorpion.jpg);
+}
+
+#scorpion3 {
+  height: 100%;
+  background-image: url(/images/gallery_scorpion.jpg);
+}
+#sagittaire1 {
+  height: 100%;
+  background-image: url(/images/sagitaire.jpg);
+}
+
+#capricorne1 {
+  height: 100%;
+  background-image: url(/images/capricorne.jpg);
+}
+
+#capricorne3 {
+  height: 100%;
+  background-image: url(/images/gallery_capricorne.jpg);
+}
+#verseau1 {
+  height: 100%;
+  background-image: url(/images/verseau.jpg);
+}
+
+#poisson1 {
+  height: 100%;
+  background-image: url(/images/poisson.jpg);
+}
+
+#armures {
+  height: 100%;
+  background-image: url(/images/12_armures.jpg);
+}

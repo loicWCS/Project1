@@ -1,78 +1,91 @@
 body {
-    /* Reset*/
-    box-sizing: border-box;
-    height: 100vh;
-    margin: 0px;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  .background {
-    height: 45%;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(/images/cosmos_mobile.jpg);
-  }
+  /* Reset*/
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.background {
+  height: 45%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/cosmos_mobile.jpg);
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  background-color: slategray;
+  height: 50px;
+  align-items: center;
+}
+
+li {
+  color: gold;
+  border: 1px solid silver;
+  border-radius: 6px;
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+li:hover,
+a:hover {
+  background-color: gold;
+  color: black;
+}
+.caroussel {
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 70%;
+  background-size: contain;
+  background-position: center;
+  background-image: url(/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg);
+}
+.welcome {
+  height: 30%;
+  background-color: linen;
+}
+
+footer {
+  height: 7%;
+}
+
+.logowild{
+
+}
+.scrollUp {
+  height: 5%;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+h1,
+h2,
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Spectral", serif;
+}
+h1,
+h2 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+p {
   
-  ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0;
-    background-color: slategray;
-    height: 50px;
-    align-items: center;
-  }
-  
-  li {
-    color: gold;
-    border: 1px solid silver;
-    border-radius: 6px;
-  }
-  a{
-    text-decoration: none;
-    color: gold;
-  }
-  li:hover, a:hover {
-    background-color: gold;
-    color: black;
-  }
-  .caroussel {
-    background-repeat: no-repeat;
-    background-color: black;
-    height: 70%;
-    background-size: contain;
-    background-position: center;
-    background-image: url(/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg);
-  }
-  .welcome {
-    height: 30%;
-    background-color: linen;
-  
-  }
-  
-  .scrollUp {
-    height: 5%;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-  }
-  h1,
-  p {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-family: "Spectral", serif;
-  }
-  h1 {
-    text-align: center;
-    color: gold;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  p {
-    margin-top: 0;
-  }
+ 
+}
+.logowild{
+  width: 100%;
+}
