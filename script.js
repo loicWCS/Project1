@@ -8,7 +8,7 @@ const myKnights = document.querySelector('.chevaliers')
 const knightTable = [
   {
     picture: "./images/story_portrait_belier.jpg",
-    name: "Mû,le Chevalier d'or du Bélier",
+    name: "Mû, le Chevalier d'or du Bélier",
     age: "20 ans",
     height: "172cm",
     weight: "75kg",
@@ -18,7 +18,7 @@ const knightTable = [
   },
   {
     picture: "./images/story_portrait_taureau.jpg",
-    name: "Aldeberan,le Chevalier d'or du Taureau",
+    name: "Aldeberan, le Chevalier d'or du Taureau",
     age: "20 ans",
     height: "210cm",
     weight:"130kg",
@@ -28,7 +28,7 @@ const knightTable = [
   },
   {
     picture: "./images/story_portrait_gemeaux.jpg",
-    name: "Saga,le Chevalier d'or des Gémeaux",
+    name: "Saga, le Chevalier d'or des Gémeaux",
     age:"28 ans",
     height: "188cm",
     weight:"87kg",
@@ -38,7 +38,7 @@ const knightTable = [
   },
   {
     picture: "./images/story_portrait_cancer.jpg",
-    name: "Deathmask,le Chevalier d'or du Cancer",
+    name: "Deathmask, le Chevalier d'or du Cancer",
     age:"30 ans",
     height: "184cm",
     weight:"82kg",
@@ -48,7 +48,7 @@ const knightTable = [
   },
   {
     picture: "./images/story_portrait_lion.jpg",
-    name: "Aiolia,le Chevalier d'or du Lion",
+    name: "Aiolia, le Chevalier d'or du Lion",
     age:"20 ans",
     height: "185cm",
     weight:"85kg",
@@ -58,7 +58,7 @@ const knightTable = [
   },
   {
     picture: "./images/story_portrait_vierge.jpg",
-    name: "Shaka,le Chevalier d'or de la Vierge",
+    name: "Shaka, le Chevalier d'or de la Vierge",
     age:"20 ans",
     height: "182cm",
     weight:"68kg",
@@ -183,3 +183,5 @@ divList.appendChild(textList);
 for(i=0; i < knightTable.length; i++){
   createKnights((knightTable[i].picture),(knightTable[i].name),(knightTable[i].age),(knightTable[i].height),(knightTable[i].weight),(knightTable[i].origin),(knightTable[i].spell),(knightTable[i].text));
 }
+
+// *.getElementsByClassName("story-image")

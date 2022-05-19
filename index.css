@@ -15,7 +15,17 @@ html {
   background-position: center;
   background-image: url(/images/cosmos_mobile.jpg);
 }
-
+@media screen and (min-width: 426px) {
+  .background {
+    height: 400px;
+    background-size: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .background {
+    background-color: black;
+  }
+}
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -37,6 +47,28 @@ a {
   text-decoration: none;
   color: gold;
 }
+
+/*media font-size*/
+@media screen and (min-width: 768px) {
+  a,h2,ul,p,button {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1024px) {
+  a,h2,ul,p,button {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 1440px) {
+  button {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 1440px) {
+  a,h2,ul,p {
+    font-size: xx-large;
+  }
+}
 li:hover,
 a:hover {
   background-color: gold;
@@ -48,7 +80,7 @@ a:hover {
   height: 70%;
   background-size: contain;
   background-position: center;
-  background-image: url(/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg);
+  background-image: url("/images/Les\ 12\ chevaliers\ d\'or\ du\ Zodiaque.jpg");
 }
 .welcome {
   height: 30%;
@@ -62,6 +94,12 @@ a:hover {
   left: 0;
   bottom: 0;
 }
+@media screen and (min-width:768px){
+  .scrollUp{
+    height: 6%;
+  }
+}
+
 h1,
 p {
   font-family: "Plus Jakarta Sans", sans-serif;

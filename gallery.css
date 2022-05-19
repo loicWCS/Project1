@@ -15,7 +15,17 @@ html {
   background-position: center;
   background-image: url(/images/cosmos_mobile.jpg);
 }
-
+@media screen and (min-width: 426px) {
+  .background {
+    height: 400px;
+    background-size: auto;
+  }
+}
+@media screen and (min-width:768px) {
+  .background{
+    background-color: black;
+  }
+}
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -41,6 +51,23 @@ li:hover,
 a:hover {
   background-color: gold;
   color: black;
+}
+
+/*media font-size*/
+@media screen and (min-width: 768px) {
+  a,h2,ul,p {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1024px) {
+  a,h2,ul,p{
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 1440px) {
+  a,h2,ul,p,button {
+    font-size: xx-large;
+  }
 }
 .caroussel {
   background-repeat: no-repeat;
