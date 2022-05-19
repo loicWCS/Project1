@@ -184,4 +184,3 @@ for(i=0; i < knightTable.length; i++){
   createKnights((knightTable[i].picture),(knightTable[i].name),(knightTable[i].age),(knightTable[i].height),(knightTable[i].weight),(knightTable[i].origin),(knightTable[i].spell),(knightTable[i].text));
 }
 
-// *.getElementsByClassName("story-image")

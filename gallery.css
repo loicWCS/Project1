@@ -120,85 +120,85 @@ p {
 
 #belier1 {
   height: 100%;
-  background-image: url(/images/belier.jpg);
+  background-image: url("/images/belier.jpg");
 }
 
 #taureau1 {
   height: 100%;
-  background-image: url(/images/taureau\ .jpg);
+  background-image: url("/images/taureau.jpg");
 }
 
 #taureau3 {
   height: 100%;
-  background-image: url(/images/gallery_taureau.jpg);
+  background-image: url("/images/gallery_taureau.jpg");
 }
 #gemeaux1 {
   height: 100%;
-  background-image: url(/images/gemeaux\ .jpg);
+  background-image: url("/images/gemeaux.jpg");
 }
 
 #gemeaux3 {
   height: 100%;
-  background-image: url(/images/gallery_gemeaux.jpg);
+  background-image: url("/images/gallery_gemeaux.jpg");
 }
 #cancer1 {
   height: 100%;
-  background-image: url(/images/cancer.jpg);
+  background-image: url("/images/cancer.jpg");
 }
 
 #lion1 {
   height: 100%;
-  background-image: url(/images/lion.jpg);
+  background-image: url("/images/lion.jpg");
 }
 
 #vierge1 {
   height: 100%;
-  background-image: url(/images/vierge\ .jpg);
+  background-image: url("/images/vierge.jpg");
 }
 
 #vierge3 {
   height: 100%;
-  background-image: url(/images/gallery_vierge.jpg);
+  background-image: url("/images/gallery_vierge.jpg");
 }
 #balance1 {
   height: 100%;
-  background-image: url(/images/gallery_maitre\ balance.jpg);
+  background-image: url("/images/gallery_maitre_balance.jpg");
 }
 
 #scorpion1 {
   height: 100%;
-  background-image: url(/images/scorpion.jpg);
+  background-image: url("/images/scorpion.jpg");
 }
 
 #scorpion3 {
   height: 100%;
-  background-image: url(/images/gallery_scorpion.jpg);
+  background-image: url("/images/gallery_scorpion.jpg");
 }
 #sagittaire1 {
   height: 100%;
-  background-image: url(/images/sagitaire.jpg);
+  background-image: url("/images/sagitaire.jpg");
 }
 
 #capricorne1 {
   height: 100%;
-  background-image: url(/images/capricorne.jpg);
+  background-image: url("/images/capricorne.jpg");
 }
 
 #capricorne3 {
   height: 100%;
-  background-image: url(/images/gallery_capricorne.jpg);
+  background-image: url("/images/gallery_capricorne.jpg");
 }
 #verseau1 {
   height: 100%;
-  background-image: url(/images/verseau.jpg);
+  background-image: url("/images/verseau.jpg");
 }
 
 #poisson1 {
   height: 100%;
-  background-image: url(/images/poisson.jpg);
+  background-image: url("/images/poisson.jpg");
 }
 
 #armures {
   height: 100%;
-  background-image: url(/images/12_armures.jpg);
+  background-image: url("/images/12_armures.jpg");
 }
